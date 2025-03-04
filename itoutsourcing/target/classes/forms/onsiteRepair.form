@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Napisz wiadomość do klienta",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1v4atjz",
+        "columns": null
+      },
+      "id": "Field_1pj2iz1",
+      "key": "message"
+    },
+    {
+      "label": "Czy udało się rozwiązać?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_16vx9nq",
+        "columns": null
+      },
+      "id": "Field_1inc1nj",
+      "key": "solved"
+    }
+  ],
+  "type": "default",
+  "id": "onsite_repair",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

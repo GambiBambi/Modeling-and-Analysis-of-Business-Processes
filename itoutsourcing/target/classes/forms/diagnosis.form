@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "label": "Adres e-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1cxt0gq",
+        "columns": null
+      },
+      "id": "Field_15eayne",
+      "key": "client_email",
+      "readonly": true
+    },
+    {
+      "label": "Nazwa firmy",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1adigpb",
+        "columns": null
+      },
+      "id": "Field_13e8yhq",
+      "key": "client_name",
+      "disabled": false,
+      "readonly": true
+    },
+    {
+      "label": "Tytuł",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kuer12",
+        "columns": null
+      },
+      "id": "Field_1590232",
+      "key": "client_title"
+    },
+    {
+      "label": "Wiadomość",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1ygyyda",
+        "columns": null
+      },
+      "id": "Field_1jnlheh",
+      "key": "client_message"
+    },
+    {
+      "label": "Czy naprawa będzie robiona online?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_07hh7qz",
+        "columns": null
+      },
+      "id": "Field_09626on",
+      "key": "online"
+    }
+  ],
+  "type": "default",
+  "id": "diagnosis",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

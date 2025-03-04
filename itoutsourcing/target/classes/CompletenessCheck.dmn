@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="Definitions_0bz7ouw" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.31.0">
+  <decision id="complete_decision" name="Completeness check" camunda:historyTimeToLive="30">
+    <decisionTable id="decisionTable_1" hitPolicy="FIRST">
+      <input id="input_1" camunda:inputVariable="client_email">
+        <inputExpression id="inputExpression_1" typeRef="string">
+          <text>client_email</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1m25lux" camunda:inputVariable="client_name">
+        <inputExpression id="LiteralExpression_12gm41m" typeRef="string">
+          <text>client_name</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_1s9wkud" camunda:inputVariable="client_title">
+        <inputExpression id="LiteralExpression_1qdchxj" typeRef="string">
+          <text>client_title</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_00yb6v6" camunda:inputVariable="client_message">
+        <inputExpression id="LiteralExpression_0qleyco" typeRef="string">
+          <text>client_message</text>
+        </inputExpression>
+      </input>
+      <output id="output_1" name="completeness" typeRef="boolean" />
+      <rule id="DecisionRule_110bhbp">
+        <inputEntry id="UnaryTests_0kz93am">
+          <text>not(null,"")</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_13xufqm">
+          <text>not(null,"")</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0bmuprf">
+          <text>not(null,"")</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1k6jedg">
+          <text>not(null,"")</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_19kjw8o">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_01s7xiw">
+        <inputEntry id="UnaryTests_01xiwpc">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ouhk2f">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0t3wrbz">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1p67g5y">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0bh1qxa">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="DMNDiagram_136bm47">
+      <dmndi:DMNShape id="DMNShape_1td8afs" dmnElementRef="complete_decision">
+        <dc:Bounds height="80" width="180" x="150" y="80" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

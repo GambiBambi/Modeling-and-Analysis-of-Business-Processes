@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "label": "Adres e-mail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0xvtlvj",
+        "columns": null
+      },
+      "id": "Field_1bjz55y",
+      "key": "client_email"
+    },
+    {
+      "label": "Nazwa firmy",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0z0fmpz",
+        "columns": null
+      },
+      "id": "Field_0tqqph1",
+      "key": "client_name"
+    },
+    {
+      "label": "Tytuł",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1b4cr6g",
+        "columns": null
+      },
+      "id": "Field_0yjcr66",
+      "key": "client_title"
+    },
+    {
+      "label": "Wiadomość",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0m9n2l1",
+        "columns": null
+      },
+      "id": "Field_19qffec",
+      "key": "client_message"
+    }
+  ],
+  "type": "default",
+  "id": "report",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

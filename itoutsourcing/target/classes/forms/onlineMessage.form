@@ -1,0 +1,23 @@
+{
+  "components": [
+    {
+      "label": "Powód problemów z naprawą i dalsze kroki",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1e7zjb9",
+        "columns": null
+      },
+      "id": "Field_0vy3df2",
+      "key": "message"
+    }
+  ],
+  "type": "default",
+  "id": "online_message",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

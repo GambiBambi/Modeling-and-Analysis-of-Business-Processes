@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "label": "Pracownik przypisany do Twojego zgłoszenia",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fhbunm",
+        "columns": null
+      },
+      "id": "Field_1377p7t",
+      "key": "technician",
+      "disabled": false,
+      "readonly": true
+    },
+    {
+      "label": "",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1xlny4w",
+        "columns": null
+      },
+      "id": "Field_1x6u1yi",
+      "key": "message",
+      "readonly": true
+    },
+    {
+      "label": "Czy chcesz kontynuować?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0b9mkxb",
+        "columns": null
+      },
+      "id": "Field_1qiabos",
+      "key": "client_continue",
+      "conditional": {
+        "hide": "=solved"
+      },
+      "defaultValue": false
+    },
+    {
+      "label": "Czy chcesz ponownie otworzyć zgłoszenie?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_08agnoa",
+        "columns": null
+      },
+      "id": "Field_1kzpx41",
+      "key": "client_reopen",
+      "conditional": {
+        "hide": "=solved=false"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "client_information",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.31.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}
